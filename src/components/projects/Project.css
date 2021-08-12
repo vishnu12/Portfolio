@@ -18,7 +18,7 @@
 
 
 
-@media(min-width:360px){
+@media(max-width:360px){
     .project-container .project-row{
         margin: 0 1rem !important;
     }
@@ -30,14 +30,4 @@
     }
 }
 
-@media(max-width:1366px){
-    .project-container{
-        min-height:75vh;
-    }
-
-    .project-container .project-row{
-        margin: 0 4rem !important;
-        width: 100%;
-    }
-}
 

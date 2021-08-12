@@ -1,7 +1,7 @@
 
 .banner-container{
     width: 100%;
-    height: 90vh;
+    height: 95vh;
     background:url('/src/images/peter-vanosdall-uZVtAixV8c8-unsplash.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -47,16 +47,16 @@
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
-@media(min-width:360px){
+@media(max-width:640px){
     .banner-container{
-        height: 60vh !important;
+        height: 400px !important;
     }
 }
 
 @media(max-width:768px){
 
     .banner-container{
-        height: 55vh;
+        height: 600px;
     }
 
     .mini-about{
@@ -79,12 +79,15 @@
 
 @media(max-width:1024px){
     .banner-container{
-        height: 45vh;
+        height: 400px;
+    }
+
+    .mini-about{
+        width: 20rem;
+        height: 14rem;
     }
 }
 
-@media(max-width:1366px){
-    .banner-container{
-        height: 90vh !important;
-    }
-}
+
+
+
