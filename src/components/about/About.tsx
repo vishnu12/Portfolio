@@ -9,7 +9,7 @@ export const About:React.FC = () => {
             <Row>
                 <Col md={6} sm={12}>
                    <div className="img-container">
-                   <Image roundedCircle src="/images/mypic.jpg" alt="image" width="400px" height="400px"/>
+                   <Image roundedCircle src="/images/myimage.jpg" alt="image" width="400px" height="400px"/>
                    </div>
                 </Col>
                 <Col md={6} sm={12}>
