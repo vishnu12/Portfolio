@@ -5,6 +5,11 @@
     position: relative;
 }
 
+.project-card:hover{
+    transform:scale(1.1);
+    transition: transform 0.2s linear;
+}
+
 .project-card .btn-container{
    display: flex;
    justify-content: center;
