@@ -1,0 +1,31 @@
+.tech-container{
+    width: 100%;
+    min-height: 200px;
+    background-color:rgba(0, 0, 0, 0.9);
+    position: relative;
+
+}
+
+.tech-container h3{
+    text-align: center;
+    color: #fff;
+}
+
+.tech-row{
+    margin: 0 2rem;
+    width: 100%;
+}
+
+.tech-container .icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.tech-container .icon span{
+    color: #fff;
+}

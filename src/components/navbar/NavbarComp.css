@@ -1,0 +1,36 @@
+
+.first-child{
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-child .child{
+    margin-left: -5rem;
+    font-size: 25px;
+}
+
+.second-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-child .links{
+    margin: auto 1.5rem;
+}
+
+.second-child .icon{
+    font-size: 25px;
+    margin-right: 4px;
+}
+
+
+
+
+@media(max-width:768px){
+    .first-child .child{
+        margin-left: 0.25rem;
+    }
+}
