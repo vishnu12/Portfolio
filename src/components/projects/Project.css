@@ -34,5 +34,10 @@
     .project-container{
         min-height:75vh;
     }
+
+    .project-container .project-row{
+        margin: 0 4rem !important;
+        width: 100%;
+    }
 }
 
