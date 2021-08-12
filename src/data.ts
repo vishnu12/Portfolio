@@ -19,7 +19,7 @@ export default [
     {
         name:'OLX Clone',
         image:'/images/olx.jpg',
-        description:'This project is built with React as front-end and Firebase as Backend. Context API is used for complex state management',
+        description:'This project is built with React as front-end and Firebase as Backend. Context API is used for state management',
         live:true,
         url:'https://olx-clone-84da1.web.app/',
         git:'https://github.com/vishnu12/OLx-clone'

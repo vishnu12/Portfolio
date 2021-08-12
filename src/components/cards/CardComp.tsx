@@ -14,7 +14,7 @@ type Props={
 export const CardComp: React.FC<Props> = ({name,image,description,url,live,git}) => {
    
     return (
-        <Card style={{ width: '18rem',height:'22rem' }} className="project-card">
+        <Card style={{ width: '18rem',height:'23rem' }} className="project-card">
             <Card.Img variant="top" src={image} style={{width:'100%',height:'12rem'}} />
             <Card.Body style={{backgroundColor:"#000"}}>
                 <Card.Title className="text-center text-white">{name}</Card.Title>
