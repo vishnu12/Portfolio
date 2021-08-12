@@ -29,3 +29,9 @@
 .tech-container .icon span{
     color: #fff;
 }
+
+@media(max-width:768px){
+    .tech-row{
+        margin: 0 1rem;
+    }
+}

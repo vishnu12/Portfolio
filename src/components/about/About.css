@@ -33,14 +33,22 @@
     opacity: 0.65;
 }
 
-@media(max-width:738px){
+@media(max-width:768px){
     .about-container{
-        min-height:150vh;
+        min-height:100vh;
     }
     .img-container{
         margin-bottom: 1rem;
     }
+    .img-container .about-img{
+        width: 250px;
+        height: 250px;
+    }
     .about{
         margin: 1.5rem auto;
+    }
+
+    .about p{
+        font-size: 15px;
     }
 }

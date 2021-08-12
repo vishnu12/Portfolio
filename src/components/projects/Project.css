@@ -16,3 +16,11 @@
     width: 100%;
 }
 
+
+
+@media(max-width:768px){
+    .project-container .project-row{
+        margin: 0 1rem;
+    }
+}
+
