@@ -30,6 +30,13 @@
     color: #fff;
 }
 
+@media(min-width:360px){
+    .tech-row{
+        margin: 0 0.5rem !important;
+    }
+}
+
+
 @media(max-width:768px){
     .tech-row{
         margin: 0 1rem;

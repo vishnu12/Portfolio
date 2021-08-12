@@ -52,3 +52,30 @@
         font-size: 15px;
     }
 }
+
+@media(max-width:1024px){
+    .about-container{
+        min-height:50vh;
+    }
+   
+    .img-container{
+        margin-bottom: 1rem;
+    }
+    .img-container .about-img{
+        width: 250px;
+        height: 250px;
+    }
+    .about{
+        margin: 1.5rem auto;
+    }
+
+    .about p{
+        font-size: 15px;
+    }
+}
+
+@media(max-width:1366px){
+    .about-container{
+        min-height:35vh;
+    }
+}

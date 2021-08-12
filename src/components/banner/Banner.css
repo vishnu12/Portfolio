@@ -47,6 +47,11 @@
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
+@media(min-width:360px){
+    .banner-container{
+        height: 60vh !important;
+    }
+}
 
 @media(max-width:768px){
 
@@ -69,5 +74,17 @@
 
     .banner-container p{
         font-size: 10px;
+    }
+}
+
+@media(max-width:1024px){
+    .banner-container{
+        height: 45vh;
+    }
+}
+
+@media(max-width:1366px){
+    .banner-container{
+        height: 50vh !important;
     }
 }
