@@ -12,7 +12,7 @@
 }
 
 .tech-row{
-    margin: 0 2rem;
+    margin: 0 auto;
     width: 100%;
 }
 
@@ -30,15 +30,4 @@
     color: #fff;
 }
 
-@media(max-width:480px){
-    .tech-row{
-        margin: 0 0.5rem !important;
-    }
-}
 
-
-@media(max-width:768px){
-    .tech-row{
-        margin: 0 1rem;
-    }
-}
